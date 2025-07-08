@@ -5,8 +5,7 @@ for(items in arr)
 {
     console.log(items);
 }  
-
-console.log(names);
+names=["ram","sam","jack","john"];
 
 for(index in names)
 {
@@ -23,6 +22,14 @@ for(index in names)
 
 const person={name: "Rishi",age: 22,city: "Chennai"};
 
+for(key in person) 
+{
+  console.log(key);
+}
+for(key in person) 
+{
+  console.log(person[key]);
+}
 for(key in person) 
 {
   console.log(key,person[key]);
